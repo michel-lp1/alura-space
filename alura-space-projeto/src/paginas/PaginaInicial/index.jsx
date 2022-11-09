@@ -2,6 +2,7 @@ import banner from "./banner.png";
 import Cabecalho from "../../componentes/Cabecalho";
 import Menu from "../../componentes/Menu";
 import styles from "./PaginaInicial.module.scss";
+import Galeria from "../../componentes/Galeria";
 
 export default function PaginaInicial() {
   return (
@@ -16,6 +17,7 @@ export default function PaginaInicial() {
           </div>
         </section>
       </main>
+      <Galeria />
     </>
   );
 }
