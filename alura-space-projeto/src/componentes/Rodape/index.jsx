@@ -1,7 +1,7 @@
 import React from "react";
 import facebook from "./facebook.svg";
-import twitter from "./twitter.svg";
-import instagram from "./instagram.svg";
+import whatsapp from "./whatsapp.svg";
+import instagram from "./instagram.png";
 import styles from "./Rodape.module.scss";
 
 export default function Rodape() {
@@ -16,21 +16,21 @@ export default function Rodape() {
           <img src={facebook} alt="ícone do facebook" />
         </a>
         <a
-          href="https://twitter.com/aluraonline?lang=en"
+          href="https://api.whatsapp.com/send?phone=5511966583814"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={twitter} alt="ícone do twitter" />
+          <img src={whatsapp} alt="ícone do whatsapp" />
         </a>
         <a
-          href="https://www.instagram.com/aluraonline/?hl=en"
+          href="https://instagram.com/lp.michel_?igshid=YmMyMTA2M2Y="
           target="_blank"
           rel="noreferrer"
         >
           <img src={instagram} alt="ícone do instagram" />
         </a>
       </div>
-      <p>Desenvolvido por Alura</p>
+      
     </footer>
   );
 }
